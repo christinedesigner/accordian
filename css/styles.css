@@ -1,0 +1,203 @@
+/*--STYLES--*/
+
+/*--General Styles
+=========================*/
+body {
+	/*background-color: #999;*/
+	font-family: 'Kreon', Ariel, sans-serif;
+	font-size: 1em;
+	color: #000;
+}
+img {
+	border: 1px solid #666;
+	padding: 5px;
+	float: left;
+}
+
+#collapseFour img {
+	float: none;
+	border: 1px solid #666;
+}
+
+h8 {
+	font-size: 1.5em;
+	margin-bottom: 12px;
+	color: #cc6d1f; /*orange*/
+}
+
+a {color: #fff;}
+a:link {text-decoration: none;}
+a:visited {text-decoration: none;}
+a:hover {text-decoration: underline;}
+a:active {text-decoration: underline;}
+
+#container {
+	width: 100%;
+	max-width: 1024px;
+	margin: auto;
+	padding: 2%;
+}
+
+#header {
+	height: 50px;
+	max-width: 960px;
+}
+.logo {
+	height: 45px;
+	width: 200px;
+	margin-top:-25px;
+	margin-left: -5px;
+	display: block;
+	float: left;
+}
+.name {
+	color: #999;
+	float: right;
+	margin-top: -10px;
+	margin-right:  55px;
+	z-index: 666;
+}
+
+#login {
+	float: right;
+	margin-top: -10px;
+	margin-right: 25px;
+	z-index: 999;
+}
+
+#login a {
+	font-size: 1.2em;
+	color: #000;
+}
+
+#login a:hover {
+	color: #cc6d1f; /*orange hover*/
+	text-decoration: none;
+}
+
+/*Breadcrumb-type navigation*/
+
+#topnav {
+	float: left;
+	margin: -140px 0px 0px -12px;
+	height: 35px;
+	width: 1024px;
+	background-image: url('img/bootstrap-crumbtrail.jpg');
+	background-color: #999;
+	color: #000;
+	border: none;
+}
+#topnav ul {
+	list-style: none;
+	margin: 0px 0px 0px 12px;
+	padding: 0px;
+}
+#topnav ul li {
+	font-family: 'Kreon', sans-serif;
+	font-size: 1em;
+	color: #107cc4;
+	float: left;
+	margin: 0px 2px 0px 0px;
+	padding: 5px 3px 5px 8px;
+}
+#topnav img {
+	margin: -20px 5px 0px 0px;
+}
+#topnav a {
+	color: #000;
+}
+/*Steps section*/
+
+#steps {
+	margin-top: 75px;
+	margin-bottom: 45px;
+	font-size: 1.2em;
+	color: #999;
+	text-align: center;
+}
+.horizontalRule {
+    clear: both;
+    width: 100%;
+    background-color: #000;
+    height: 1px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    z-index: 0;
+}
+
+#circles {
+	width: 1024px;
+	float: left;
+	z-index: 999;
+	margin-top: -35px;
+	margin-bottom: 10px;
+}
+
+#circles img {
+	margin: 0px 75px 0px 75px;
+}
+
+/*Accordion menu additions*/
+
+.accordion-heading h2 {
+	font-family: 'Kreon', Ariel, sans-serif;
+	color: #000;
+	font-weight: normal;
+	font-size: 1em;
+	margin-right: 50px;
+	padding-left: 10px;
+	word-spacing: 150px;
+}
+.accordion-heading img {
+	float: right;
+	margin-top: -45px;
+	margin-right: 485px;
+}
+.accordion-inner {
+	color: #000; 
+}
+
+.clearfix {
+	clear: both;
+	display: inline-block;
+}
+.clearfix:after {
+	clear: both;
+	content: ' ';
+	display: block;
+	font-size: 0;
+	line-height: 0;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+* html .clearfix {
+	height: 1%;
+}
+
+
+/* Media Queries */
+
+@media screen and (max-width: 480px) {
+
+#topnav, #main {
+	float: left;
+	clear: left;
+	margin: 2 0 10px;
+	width: 100%;
+}
+#topnav li {
+	margin: 0;
+	display: block;
+	margin-bottom: 0px;
+	padding: 2px;
+	line-height: 100%;
+}
+#topnav img {
+	margin-top: 3px;
+}
+
+
+
+
